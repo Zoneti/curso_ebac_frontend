@@ -104,3 +104,39 @@ section h2{
 #economy .articles article a{
     background-color: #ff9f1a;
 }
+
+#technology{
+    background-color: #c094e4;
+}
+
+#technology .articles article a{
+    background-color: #781fc2;
+}
+
+#literature{
+    background-color: #e68d8d;
+}
+
+#literature .articles article a{
+    background-color: #e41616;
+}
+
+#topBtn {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 5%;
+    left: 95%;
+    width: 45px;
+    font-size: 16px;
+    background-color: #817f7f;
+    border: #817f7f;
+    padding: 5px 0px ;
+    border-radius: 4px;
+}
+
+#topBtn a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
