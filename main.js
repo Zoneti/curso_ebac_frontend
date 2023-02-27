@@ -6,7 +6,7 @@ $(document).ready(function(){
         const nTask = $(`<li style="display:none">${tarefa}</li>`);
         $(nTask).appendTo('ol');
         $(nTask).fadeIn(1000);
-        //$('#nome-tarefa').val('');
+        $('#nome-tarefa').val('');
     })
 
     $('#lista-tarefas').on('click', 'li', function(e){
