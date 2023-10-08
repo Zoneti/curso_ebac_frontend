@@ -4,14 +4,14 @@ module.exports = function(grunt) {
         less: {
             development: {
                 files: {
-                    '/styles/main.css' : 'src/styles/main.less'
+                    'styles/main.css' : 'src/styles/main.less'
                 }
             }
         },
         uglify: {
             target: {
                 files: {
-                    '/scripts/main.min.js': 'src/scripts/main.js'
+                    'scripts/main.min.js': 'src/scripts/main.js'
                 }
             }
         }
